@@ -13,4 +13,4 @@ jobs:
         run: |
           echo $RELEASE_VERSION
           echo ${{ env.RELEASE_VERSION }}
-          echo $GITHUB_ENV
+          echo cat $GITHUB_ENV
